@@ -39,7 +39,7 @@ public class Rectangulo {
 
     // Método para calcular el perímetro
     public double calcularPerimetro() {
-        return 2 * (longitud + ancho);
+        return 2 * longitud + 2 * ancho;
     }
 
     // Método para calcular el área
