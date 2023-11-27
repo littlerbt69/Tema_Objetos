@@ -2,6 +2,12 @@ package Boletin_1;
 
 import java.util.Scanner;
 
+/*
+Las variables static suelen ser constantes comunes para todos los objetos que creemos en la clase, son compartidas para todos los objetos.
+
+Las variables no static suelen ser variables que son usadas para definir valores propios de los objetos.
+ */
+
 public class Rectangulo {
     public static final double MIN_LONGITUD_ANCHO = 0;
     public static final double MAX_LONGITUD_ANCHO = 20;
@@ -39,12 +45,12 @@ public class Rectangulo {
 
     // Método para calcular el perímetro
     public double calcularPerimetro() {
-        return 2 * longitud + 2 * ancho;
+        return 2 * this.ancho + 2 * this.longitud;
     }
 
     // Método para calcular el área
     public double calcularArea() {
-        return longitud * ancho;
+        return this.ancho * this.longitud;
     }
 
     public static void main(String[] args) {
