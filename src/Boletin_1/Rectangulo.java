@@ -3,6 +3,9 @@ package Boletin_1;
 import java.util.Scanner;
 
 public class Rectangulo {
+    public static final double MIN_LONGITUD_ANCHO = 0;
+    public static final double MAX_LONGITUD_ANCHO = 20;
+
     private double longitud, ancho;
 
     public Rectangulo() {
@@ -15,7 +18,7 @@ public class Rectangulo {
     }
 
     public void setLongitud(double longitud) {
-        if (longitud > 0 && longitud < 20) {
+        if (longitud > MIN_LONGITUD_ANCHO && longitud < MAX_LONGITUD_ANCHO) {
             this.longitud = longitud;
         } else {
             System.out.println("Valor de longitud no valida");
@@ -27,7 +30,7 @@ public class Rectangulo {
     }
 
     public void setAncho(double ancho) {
-        if (ancho > 0 && ancho < 20) {
+        if (ancho > MIN_LONGITUD_ANCHO && ancho < MAX_LONGITUD_ANCHO) {
             this.ancho = ancho;
         } else {
             System.out.println("Valor de ancho no valida");
