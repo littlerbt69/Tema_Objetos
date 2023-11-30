@@ -1,4 +1,6 @@
-package Boletin_1;
+package Ejercicio2;
+
+import Ejercicio2.Cuenta;
 
 import java.util.Scanner;
 

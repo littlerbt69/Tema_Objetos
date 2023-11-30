@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f95965-995d-46b1-8ab9-bb2f182fe703" name="Changes" comment="cambios dia 27/11">
-      <change afterPath="$PROJECT_DIR$/src/Boletin_1/Apuntes_NO_EJERCICIO_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3/Maquina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3/Maquina_Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio_Prueba/Avion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio_Prueba/Avion_Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio_Prueba/Deposito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio_Prueba/Revision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Boletin_1/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio2/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Boletin_1/Cuenta_Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio2/Cuenta_Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Boletin_1/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio1/Rectangulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,19 +43,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Alumno/IdeaProjects/Tema_Objetos/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/Users/Alumno/IdeaProjects/Tema_Objetos/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,6 +68,7 @@
       <updated>1700746436500</updated>
       <workItem from="1700746437472" duration="84000" />
       <workItem from="1700746541362" duration="543000" />
+      <workItem from="1701341511936" duration="6620000" />
     </task>
     <task id="LOCAL-00001" summary="cambios dia 27/11">
       <option name="closed" value="true" />
@@ -82,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701084762220</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cambios dia 27/11">
+      <option name="closed" value="true" />
+      <created>1701085124551</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701085124551</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
