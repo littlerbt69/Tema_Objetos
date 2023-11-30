@@ -1,5 +1,7 @@
 package Ejercicio_Prueba;
 
+import java.time.LocalDateTime;
+
 public class Avion {
     public static final int NUM_REVISIONES_MAX = 10;
 
@@ -34,6 +36,16 @@ public class Avion {
             }
         }
         return null;
+    }
+
+    //Distancia en km al destino
+    public boolean puedeViajar (double distancia) {
+        Revision ultimaRevision = getUltimaRevision();
+        double distanciaAlcanzable = deposito.getCantidadActual()/consumo;
+        if (distanciaAlcanzable >= distancia && ultimaRevision.isEstado() && ultimaRevision.getFecha().plusMonths(ultimaRevision.getPeriodoValidez()).isAfter(LocalDateTime.now())) {
+            return true;
+        }
+        return false;
     }
 
     @Override

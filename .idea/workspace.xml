@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f95965-995d-46b1-8ab9-bb2f182fe703" name="Changes" comment="cambios dia 27/11">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio3/Maquina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio3/Maquina_Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio_Prueba/Avion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio_Prueba/Avion_Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio_Prueba/Deposito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio_Prueba/Revision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boletin_1/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio2/Cuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boletin_1/Cuenta_Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio2/Cuenta_Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boletin_1/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio1/Rectangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio_Prueba/Avion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio_Prueba/Avion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio_Prueba/Avion_Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio_Prueba/Avion_Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +60,7 @@
       <updated>1700746436500</updated>
       <workItem from="1700746437472" duration="84000" />
       <workItem from="1700746541362" duration="543000" />
-      <workItem from="1701341511936" duration="6620000" />
+      <workItem from="1701341511936" duration="9622000" />
     </task>
     <task id="LOCAL-00001" summary="cambios dia 27/11">
       <option name="closed" value="true" />
@@ -102,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701085124551</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cambios dia 27/11">
+      <option name="closed" value="true" />
+      <created>1701348269005</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701348269005</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
