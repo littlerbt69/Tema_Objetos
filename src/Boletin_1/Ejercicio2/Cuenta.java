@@ -1,4 +1,4 @@
-package Ejercicio2;
+package Boletin_1.Ejercicio2;
 
 public class Cuenta {
     private double saldo;

@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f95965-995d-46b1-8ab9-bb2f182fe703" name="Changes" comment="cambios dia 27/11">
+      <change afterPath="$PROJECT_DIR$/src/Boletin_4_2/ParametroInvalidoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Boletin_4_2/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Boletin_4_3/Carta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Boletin_4_3/Juego_Carta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_11_2023_10_30_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_11_2023_10_30__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio_Prueba/Avion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio_Prueba/Avion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio_Prueba/Avion_Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio_Prueba/Avion_Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio1/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boletin_1/Ejercicio1/Rectangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio2/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boletin_1/Ejercicio2/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio2/Cuenta_Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boletin_1/Ejercicio2/Cuenta_Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio3/Maquina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boletin_1/Ejercicio3/Maquina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio3/Maquina_Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boletin_1/Ejercicio3/Maquina_Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +44,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/Alumno/IdeaProjects/Tema_Objetos/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Alumno/IdeaProjects/Tema_Objetos/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Boletin_4_2" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Boletin_1" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +77,8 @@
       <updated>1700746436500</updated>
       <workItem from="1700746437472" duration="84000" />
       <workItem from="1700746541362" duration="543000" />
-      <workItem from="1701341511936" duration="9622000" />
+      <workItem from="1701341511936" duration="9761000" />
+      <workItem from="1702286601073" duration="2758000" />
     </task>
     <task id="LOCAL-00001" summary="cambios dia 27/11">
       <option name="closed" value="true" />
@@ -102,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701348269005</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="cambios dia 27/11">
+      <option name="closed" value="true" />
+      <created>1701351475035</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701351475035</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

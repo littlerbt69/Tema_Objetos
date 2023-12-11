@@ -1,6 +1,4 @@
-package Ejercicio3;
-
-import Ejercicio3.Maquina;
+package Boletin_1.Ejercicio3;
 
 import java.util.Scanner;
 

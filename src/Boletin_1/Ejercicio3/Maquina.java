@@ -1,4 +1,4 @@
-package Ejercicio3;
+package Boletin_1.Ejercicio3;
 
 public class Maquina {
     private static final int CAP_CAFE = 50;
