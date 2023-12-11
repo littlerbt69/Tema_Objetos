@@ -24,7 +24,7 @@ public class Juego_Carta {
         Random random = new Random();
 
         for (int i = 0; i < baraja.length; i++) {
-            int posicionAleatoria = random.nextInt();
+            int posicionAleatoria = random.nextInt(baraja.length);
         }
     }
 }
