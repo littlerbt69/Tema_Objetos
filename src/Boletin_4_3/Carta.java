@@ -1,19 +1,13 @@
 package Boletin_4_3;
 
 public class Carta {
-    private static final String[] cartas = {"Oros", "Copas", "Espadas", "Bastos"};
-
-    //Creamos las constantes necesarias
-    public static final int NUM_MINIMO = 1;
-    public static final int NUM_MAXIMO = 12;
-
     //Creamos las variables necesarias
     public String palo;
     public int numero;
 
-    public Carta(String palo, int numero) {
+    public Carta(String palo, String numero) {
         this.palo = palo;
-        this.numero = numero;
+        this.numero = Integer.parseInt(numero);
     }
 
     public String getPalo() {
