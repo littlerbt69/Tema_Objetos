@@ -37,13 +37,18 @@ public class Juego_Carta {
         }
     }
 
+    public void comprobarBarajaCompleta() {
+        for (int i = 0; i < baraja.length; i++) {
+
+        }
+    }
+
     public void repartirCartas (int numJugadores, int numCartas) throws CartaException {
-        if (baraja.length   >= (numCartas * numJugadores)) {
-            for (int i = 0; i < baraja.length; i++) {
-                System.out.println("Repartiendo cartas al jugador " + (i + 1));
+        if (baraja.length >= (numCartas * numJugadores)) {
+            for (int i = 1; i < numCartas; i++) {
+                System.out.println("Repartiendo cartas al jugador " + (i));
                 for (int j = 0; j < numCartas; j++) {
                     System.out.println("\t" + baraja[i * numCartas + j]);
-
                 }
             }
         } else {

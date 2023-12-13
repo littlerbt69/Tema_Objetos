@@ -16,8 +16,10 @@ public class MainCarta {
 
         Juego_Carta juego = new Juego_Carta(baraja);
 
+        juego.barajar();
+
         try {
-            juego.repartirCartas(3, 4);
+        juego.repartirCartas(3, 4);
         } catch (CartaException e) {
             System.out.println(e.getMessage());
         }
