@@ -41,12 +41,12 @@ public class Mensaje {
 
     @Override
     public String toString() {
-        return "Mensaje{" +
-                "asunto='" + asunto + '\'' +
-                ", cuerpo='" + cuerpo + '\'' +
-                ", fechaEnvio=" + fechaEnvio +
-                ", remitente=" + remitente +
-                ", destinatario=" + destinatario +
+        return "Mensaje {" +
+                "asunto = '" + asunto + '\'' +
+                ", cuerpo = '" + cuerpo + '\'' +
+                ", fechaEnvio = " + fechaEnvio +
+                ", remitente = " + remitente +
+                ", destinatario = " + destinatario +
                 '}';
     }
 }

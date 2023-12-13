@@ -7,6 +7,7 @@
     <list default="true" id="95f95965-995d-46b1-8ab9-bb2f182fe703" name="Changes" comment="cambios dia 13/12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Boletin_4_3/Main_Mensajeria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boletin_4_3/Main_Mensajeria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Boletin_4_3/Mensaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boletin_4_3/Mensaje.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Boletin_4_3/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boletin_4_3/Persona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +48,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Alumno/IdeaProjects/Tema_Objetos/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -72,7 +74,8 @@
       <workItem from="1702286601073" duration="3475000" />
       <workItem from="1702292232269" duration="2840000" />
       <workItem from="1702455980118" duration="2250000" />
-      <workItem from="1702458284400" duration="4148000" />
+      <workItem from="1702458284400" duration="6922000" />
+      <workItem from="1702466905169" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="cambios dia 27/11">
       <option name="closed" value="true" />
@@ -154,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702462329845</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="cambios dia 13/12">
+      <option name="closed" value="true" />
+      <created>1702462504826</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702462504827</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,5 +176,9 @@
     <MESSAGE value="cambios dia 11/12" />
     <MESSAGE value="cambios dia 13/12" />
     <option name="LAST_COMMIT_MESSAGE" value="cambios dia 13/12" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

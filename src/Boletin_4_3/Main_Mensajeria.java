@@ -6,6 +6,16 @@ public class Main_Mensajeria {
         Persona p1 = new Persona("Manolo");
         Persona p2 = new Persona("Pedro");
 
-        p1.enviarMensaje(p2,"Mensaje de prueba","Probando mensaje");
+
+        try {
+            p1.enviarMensaje(p2,"Mensaje de prueba","Probando mensaje");
+
+            p2.mostrarBuzonEntrada();
+
+            p2.borrarMensajeRecibidoMasAntiguo();
+            p2.mostrarBuzonEntrada();
+        } catch (MensajeriaException m) {
+            System.out.println(m.getMessage());
+        }
     }
 }

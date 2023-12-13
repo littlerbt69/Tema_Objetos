@@ -73,4 +73,43 @@ public class Persona {
             }
         }
     }
+
+    public void borrarMensajeEnviadoMasAntiguo()  throws MensajeriaException {
+        if (mensajesEnviados[0] == null) {
+                throw new MensajeriaException("La bandeja de salida esta vacia.");
+        }
+
+        boolean salida = false;
+
+        for (int i = 1; i < CAPACIDAD_BUZON && !salida; i++) {
+            mensajesEnviados[i - 1] = mensajesEnviados[i];
+            mensajesEnviados[i] = null;
+            if (i < CAPACIDAD_BUZON - 1 && mensajesEnviados[i + 1] == null) {
+                salida = true;
+            }
+        }
+    }
+
+    public void borrarMensajeRecibidoMasAntiguo()  throws MensajeriaException {
+        if (mensajesRecibidos[0] == null) {
+            throw new MensajeriaException("La bandeja de entrada esta vacia.");
+        }
+
+        boolean salida = false;
+
+        for (int i = 1; i < CAPACIDAD_BUZON && !salida; i++) {
+            mensajesRecibidos[i - 1] = mensajesRecibidos[i];
+            mensajesRecibidos[i] = null;
+            if (i < CAPACIDAD_BUZON - 1 && mensajesRecibidos[i + 1] == null) {
+                salida = true;
+            }
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Persona {" +
+                "nombre = '" + nombre + '\'' +
+                '}';
+    }
 }
