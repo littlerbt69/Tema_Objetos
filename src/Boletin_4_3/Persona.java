@@ -73,17 +73,4 @@ public class Persona {
             }
         }
     }
-
-    public void borrarMensajeMasAntiguo() {
-        if (CAPACIDAD_BUZON > 0) {
-            int mensajeBorrado = cola[inicio];
-            inicio = (inicio + 1) % CAPACIDAD_BUZON;
-            tamaño--;
-            System.out.println("Elemento desencolado: " + mensajeBorrado);
-            mostrarCola();
-        } else {
-            System.out.println("La bandeja de entrada esta vacia. No se pueden eliminar mensajes");
-        }
-    }
-
 }
