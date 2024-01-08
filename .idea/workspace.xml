@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95f95965-995d-46b1-8ab9-bb2f182fe703" name="Changes" comment="cambios dia 13/12">
-      <change afterPath="$PROJECT_DIR$/src/Biblioteca/Biblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Biblioteca/BibliotecaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Biblioteca/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Biblioteca/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Biblioteca/Prestamo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Biblioteca/Usuario.java" afterDir="false" />
+    <list default="true" id="95f95965-995d-46b1-8ab9-bb2f182fe703" name="Changes" comment="cambios dia 18/12">
+      <change afterPath="$PROJECT_DIR$/src/Boletin_4_4/Ej1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Boletin_4_4/Ej2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boletin_1/Apuntes_NO_EJERCICIO_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Biblioteca/Prestamo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,8 @@
       <workItem from="1702455980118" duration="2250000" />
       <workItem from="1702458284400" duration="6922000" />
       <workItem from="1702466905169" duration="838000" />
-      <workItem from="1702891515555" duration="2501000" />
+      <workItem from="1702891515555" duration="3834000" />
+      <workItem from="1704705860831" duration="2987000" />
     </task>
     <task id="LOCAL-00001" summary="cambios dia 27/11">
       <option name="closed" value="true" />
@@ -187,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702467744329</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="cambios dia 18/12">
+      <option name="closed" value="true" />
+      <created>1702894392973</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1702894392973</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +202,8 @@
     <MESSAGE value="cambios dia 27/11" />
     <MESSAGE value="cambios dia 11/12" />
     <MESSAGE value="cambios dia 13/12" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios dia 13/12" />
+    <MESSAGE value="cambios dia 18/12" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios dia 18/12" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
