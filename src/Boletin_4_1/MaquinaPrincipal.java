@@ -9,11 +9,7 @@ public class MaquinaPrincipal {
     public static void main(String[] args) {
         int opcion;
 
-        do {
-            mostrarMenu();
-            System.out.println("Selecciona una opcion entre las posibles (1-5): ");
-            switch (opcion)
-        } while (opcion != 5);
+
     }
 
     public static void mostrarMenu() {
