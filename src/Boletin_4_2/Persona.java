@@ -1,9 +1,9 @@
 package Boletin_4_2;
 
-import java.time.DateTimeException;
 import java.time.LocalDate;
 
 public class Persona {
+    // Atributos
     private String nombre;
     private LocalDate fechaNacimiento;
     private int dni;
@@ -11,15 +11,47 @@ public class Persona {
     private float altura;
     private float peso;
 
-    public Persona(String nombre, int dia, int mes, int anyo, int dni, char sexo, float altura, float peso)
-            throws ParametroInvalidoException {
-        super();
+    // Constructor
+    public Persona(String nombre, LocalDate fechaNacimiento, int dni, char sexo, float altura, float peso) {
         this.nombre = nombre;
-        this.setFechaNacimiento(dia, mes, anyo);
+        this.fechaNacimiento = fechaNacimiento;
         this.dni = dni;
         this.sexo = sexo;
         this.altura = altura;
         this.peso = peso;
+    }
+
+    // Getters y setters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public LocalDate getFechaNacimiento() {
+        return fechaNacimiento;
+    }
+
+    public void setFechaNacimiento(LocalDate fechaNacimiento) {
+        this.fechaNacimiento = fechaNacimiento;
+    }
+
+    public int getDni() {
+        return dni;
+    }
+
+    public void setDni(int dni) {
+        this.dni = dni;
+    }
+
+    public char getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(char sexo) {
+        this.sexo = sexo;
     }
 
     public float getAltura() {
@@ -30,10 +62,6 @@ public class Persona {
         this.altura = altura;
     }
 
-    /**
-     *
-     * @return
-     */
     public float getPeso() {
         return peso;
     }
@@ -42,53 +70,32 @@ public class Persona {
         this.peso = peso;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public LocalDate getFechaNacimiento() {
-        return fechaNacimiento;
-    }
-
-    private void setFechaNacimiento(int dia, int mes, int anyo) throws ParametroInvalidoException {
-        try {
-            LocalDate fecha = LocalDate.of(anyo, mes, dia);
-
-            if (fecha.isAfter(LocalDate.now())) {
-                throw new ParametroInvalidoException("La fecha debe ser igual o menor al día de hoy");
-            }
-
-            this.fechaNacimiento = fecha;
-        }
-        catch (DateTimeException ex) {
-            throw new ParametroInvalidoException("La fecha no es correcta");
-        }
-
-
-    }
-
-    public int getDni() {
-        return dni;
-    }
-
-    public char getSexo() {
-        return sexo;
-    }
-
-    /**
-     * Calcula la letra asociada a un número de DNI
-     * @param dni
-     * @return la letra asociada al número
-     */
-    public char calculaLetraDni() {
+    // Método para obtener la letra del DNI
+    public char getLetraDni() {
+        // Se asume que el DNI tiene 8 dígitos
         String letras = "TRWAGMYFPDXBNJZSQVHLCKE";
-
-        int resto = this.dni % 23;
-
-        return letras.charAt(resto);
+        int indiceLetra = dni % 23;
+        return letras.charAt(indiceLetra);
     }
 
+    // Método para calcular el Índice de Masa Corporal (IMC)
     public float getIMC() {
-        return this.peso / (float) (Math.pow(this.altura, 2));
+        // Convertir la altura a metros
+        float alturaMetros = altura / 100;
+        // Calcular el IMC
+        return peso / (alturaMetros * alturaMetros);
+    }
+
+    // Método principal para probar la clase
+    public static void main(String[] args) {
+        // Ejemplo de uso
+        Persona persona = new Persona("Juan", LocalDate.of(1990, 5, 15), 12345678, 'M', 175.5f, 70.0f);
+        System.out.println("Nombre: " + persona.getNombre());
+        System.out.println("Fecha de Nacimiento: " + persona.getFechaNacimiento());
+        System.out.println("DNI: " + persona.getDni() + persona.getLetraDni());
+        System.out.println("Sexo: " + persona.getSexo());
+        System.out.println("Altura: " + persona.getAltura() + " cm");
+        System.out.println("Peso: " + persona.getPeso() + " kg");
+        System.out.println("IMC: " + persona.getIMC());
     }
 }

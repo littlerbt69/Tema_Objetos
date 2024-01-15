@@ -8,7 +8,7 @@ public class Jugador {
     public Jugador(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
-        this.golesMarcados = 20;
+        this.golesMarcados = 0;
     }
 
     public String getNombre() {

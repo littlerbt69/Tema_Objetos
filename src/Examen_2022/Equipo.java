@@ -35,6 +35,16 @@ public class Equipo {
         }
     }
 
+    public void marcarGolParaJugador (int numeroJugador) {
+        if (numeroJugador == 1) {
+            jugador1.añadirGol();
+        } else if (numeroJugador == 2) {
+            jugador2.añadirGol();
+        } else {
+            System.out.println("Jugador no válido o no presente en el equipo.");
+        }
+    }
+
     public void eliminarJugador(Jugador jugador) {
         if (jugador1 == jugador) {
             jugador1 = null;

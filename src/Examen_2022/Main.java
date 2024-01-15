@@ -18,6 +18,7 @@ public class Main {
             System.out.println("4. Ver el número total de goles marcados por un jugador existente");
             System.out.println("5. Ver el equipo con más goles marcados en el mundial");
             System.out.println("6. Ver el jugador con más goles marcados en el mundial");
+            System.out.println("7. Añadir goles a los jugadores.");
             System.out.println("0. SALIR DEL PROGRAMA");
             opcion = teclado.nextInt();
             teclado.nextLine();
