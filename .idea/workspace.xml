@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95f95965-995d-46b1-8ab9-bb2f182fe703" name="Changes" comment="cambios dia 17/01">
-      <change afterPath="$PROJECT_DIR$/src/Boletin_4_4/Ej4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Boletin_4_4/Ej5.java" afterDir="false" />
+    <list default="true" id="95f95965-995d-46b1-8ab9-bb2f182fe703" name="Changes" comment="cambios dia 15/01">
+      <change afterPath="$PROJECT_DIR$/src/Examen_2024/Dispositivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Examen_2024/DispositivoNoCompatibleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Examen_2024/Imagen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Examen_2024/Pixel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Examen_2024/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Examen_2024/Televisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_01_2024_20_26_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_01_2024_20_26__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_01_2024_17_09_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_01_2024_17_09__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +31,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -49,7 +56,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Alumno/IdeaProjects/Tema_Objetos/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -79,12 +86,13 @@
       <workItem from="1702466905169" duration="838000" />
       <workItem from="1702891515555" duration="3834000" />
       <workItem from="1704705860831" duration="6549000" />
-      <workItem from="1704970429024" duration="9375000" />
-      <workItem from="1705494334396" duration="28000" />
-      <workItem from="1705494581316" duration="158000" />
-      <workItem from="1705494947368" duration="66000" />
-      <workItem from="1705506537035" duration="20000" />
-      <workItem from="1705507230502" duration="324000" />
+      <workItem from="1704970429024" duration="9394000" />
+      <workItem from="1705310644442" duration="4177000" />
+      <workItem from="1705317435385" duration="706000" />
+      <workItem from="1705574948101" duration="20000" />
+      <workItem from="1705575997345" duration="41000" />
+      <workItem from="1705581518881" duration="35000" />
+      <workItem from="1706180019784" duration="4786000" />
     </task>
     <task id="LOCAL-00001" summary="cambios dia 27/11">
       <option name="closed" value="true" />
@@ -230,22 +238,27 @@
       <option name="project" value="LOCAL" />
       <updated>1704975896991</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="cambios dia 11/01">
+      <option name="closed" value="true" />
+      <created>1704980543668</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1704980543668</updated>
+    </task>
+    <task id="LOCAL-00020" summary="cambios dia 15/01">
+      <option name="closed" value="true" />
+      <created>1705313664750</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1705313664750</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cambios dia 27/11" />
@@ -254,7 +267,8 @@
     <MESSAGE value="cambios dia 18/12" />
     <MESSAGE value="cambios dia 08/01" />
     <MESSAGE value="cambios dia 11/01" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios dia 11/01" />
+    <MESSAGE value="cambios dia 15/01" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios dia 15/01" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
